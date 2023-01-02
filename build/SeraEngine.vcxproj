@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3A1299B9-D241-3326-9191-E1011FF4BE47}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>SeraEngine</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SeraEngine.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SeraEngined</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SeraEngine.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SeraEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SeraEngine.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SeraEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SeraEngine.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SeraEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>\usr\local\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>\usr\local\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>\usr\local\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\Debug\sfml-network-d.lib;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\Debug\sfml-graphics-d.lib;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\Debug\sfml-audio-d.lib;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\Debug\sfml-window-d.lib;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\Debug\sfml-system-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build/Debug/SeraEngined.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build/Debug/SeraEngined.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>\usr\local\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>\usr\local\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>\usr\local\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\Release\sfml-network.lib;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\Release\sfml-graphics.lib;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\Release\sfml-audio.lib;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\Release\sfml-window.lib;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\Release\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build/Release/SeraEngine.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build/Release/SeraEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>\usr\local\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>\usr\local\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>\usr\local\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\MinSizeRel\sfml-network.lib;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\MinSizeRel\sfml-graphics.lib;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\MinSizeRel\sfml-audio.lib;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\MinSizeRel\sfml-window.lib;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\MinSizeRel\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build/MinSizeRel/SeraEngine.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build/MinSizeRel/SeraEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>\usr\local\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>\usr\local\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>\usr\local\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\include;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\RelWithDebInfo\sfml-network.lib;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\RelWithDebInfo\sfml-graphics.lib;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\RelWithDebInfo\sfml-audio.lib;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\RelWithDebInfo\sfml-window.lib;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\lib\RelWithDebInfo\sfml-system.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build/RelWithDebInfo/SeraEngine.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build/RelWithDebInfo/SeraEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\CMake\bin\cmake.exe -SF:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine -BF:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build --check-stamp-file F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\CMakeFiles\3.24.0\CMakeCXXCompiler.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\CMakeFiles\3.24.0\CMakeRCCompiler.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\CMakeFiles\3.24.0\CMakeSystem.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\SFMLConfig.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\SFMLConfigDependencies.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\SFMLConfigVersion.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\SFMLSharedTargets.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;F:\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;F:\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;F:\CMake\share\cmake-3.24\Modules\FindBoost.cmake;F:\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;F:\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\CMake\bin\cmake.exe -SF:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine -BF:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build --check-stamp-file F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\CMakeFiles\3.24.0\CMakeCXXCompiler.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\CMakeFiles\3.24.0\CMakeRCCompiler.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\CMakeFiles\3.24.0\CMakeSystem.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\SFMLConfig.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\SFMLConfigDependencies.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\SFMLConfigVersion.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\SFMLSharedTargets.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;F:\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;F:\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;F:\CMake\share\cmake-3.24\Modules\FindBoost.cmake;F:\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;F:\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+F:\CMake\bin\cmake.exe -SF:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine -BF:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build --check-stamp-file F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\CMakeFiles\3.24.0\CMakeCXXCompiler.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\CMakeFiles\3.24.0\CMakeRCCompiler.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\CMakeFiles\3.24.0\CMakeSystem.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\SFMLConfig.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\SFMLConfigDependencies.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\SFMLConfigVersion.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\SFMLSharedTargets.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;F:\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;F:\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;F:\CMake\share\cmake-3.24\Modules\FindBoost.cmake;F:\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;F:\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+F:\CMake\bin\cmake.exe -SF:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine -BF:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build --check-stamp-file F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\CMakeFiles\3.24.0\CMakeCXXCompiler.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\CMakeFiles\3.24.0\CMakeRCCompiler.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\CMakeFiles\3.24.0\CMakeSystem.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\SFMLConfig.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\SFMLConfigDependencies.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\SFMLConfigVersion.cmake;F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\deps\SFML-2.5.1\build\SFMLSharedTargets.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;F:\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;F:\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;F:\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;F:\CMake\share\cmake-3.24\Modules\FindBoost.cmake;F:\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;F:\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;F:\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\main.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Core\Game.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Core\Object.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Line2.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Line3.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Mat3.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Point2.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Point3.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Polygon.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Quaternion.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Vector2.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Vector3.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Physics2D\Collider\Collider.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Physics2D\Primitives\AABB.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Physics2D\Primitives\Circle.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Physics2D\RigidBody\RigidBody.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Utils\Log.cpp" />
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Utils\Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\build\ZERO_CHECK.vcxproj">
+      <Project>{5649B352-08A6-3B9D-8AB9-16E2E3C7B42E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

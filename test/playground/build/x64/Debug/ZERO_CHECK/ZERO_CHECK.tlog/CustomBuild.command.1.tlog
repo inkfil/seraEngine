@@ -1,0 +1,10 @@
+^F:\ALL_PROJECTS_SOURCE\CPP_TUTS\RANDOMPROJECTS\SERAENGINE\TEST\PLAYGROUND\BUILD\CMAKEFILES\9FDFB921D38C8DB0787F96B79C50ACC3\GENERATE.STAMP.RULE
+setlocal
+F:\CMake\bin\cmake.exe -SF:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/test/playground -BF:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/test/playground/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/test/playground/build/ParticleSystem.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/cmake/Modules/FindFLAC.cmake
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/cmake/Modules/FindVorbis.cmake
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/src/SFML/Audio/CMakeLists.txt
+F:/CMake/share/cmake-3.24/Modules/FindOpenAL.cmake
+F:/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake
+F:/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake

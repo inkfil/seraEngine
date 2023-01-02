@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/src/SFML/Window/CMakeLists.txt
+F:/CMake/share/cmake-3.24/Modules/FindOpenGL.cmake
+F:/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake
+F:/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake

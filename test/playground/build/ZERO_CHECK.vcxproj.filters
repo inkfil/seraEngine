@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\test\playground\build\CMakeFiles\9fdfb921d38c8db0787f96b79c50acc3\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{ED4690C5-9C9E-31B1-BC35-81C58DC05918}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

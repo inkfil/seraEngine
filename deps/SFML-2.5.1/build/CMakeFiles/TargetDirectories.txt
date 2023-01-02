@@ -1,0 +1,16 @@
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/CMakeFiles/INSTALL.dir
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/CMakeFiles/ALL_BUILD.dir
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/CMakeFiles/ZERO_CHECK.dir
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/src/SFML/CMakeFiles/INSTALL.dir
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/src/SFML/System/CMakeFiles/sfml-system.dir
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/src/SFML/System/CMakeFiles/INSTALL.dir
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/src/SFML/Main/CMakeFiles/sfml-main.dir
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/src/SFML/Main/CMakeFiles/INSTALL.dir
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/src/SFML/Window/CMakeFiles/sfml-window.dir
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/src/SFML/Window/CMakeFiles/INSTALL.dir
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/src/SFML/Network/CMakeFiles/sfml-network.dir
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/src/SFML/Network/CMakeFiles/INSTALL.dir
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/src/SFML/Graphics/CMakeFiles/INSTALL.dir
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/src/SFML/Audio/CMakeFiles/sfml-audio.dir
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/src/SFML/Audio/CMakeFiles/INSTALL.dir

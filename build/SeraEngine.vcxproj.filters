@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Core\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Core\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Line2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Line3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Mat3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Point2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Point3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Polygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Vector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Math\Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Physics2D\Collider\Collider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Physics2D\Primitives\AABB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Physics2D\Primitives\Circle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Physics2D\RigidBody\RigidBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Utils\Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\src\Utils\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\All_Projects_Source\Cpp_Tuts\randomProjects\seraEngine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E2425D01-905B-3F71-8651-82B140D6FF5C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

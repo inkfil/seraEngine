@@ -1,0 +1,27 @@
+
+
+// Game Object
+
+
+// Window
+1. Singleton window (only one window instance in entire game life cycle)
+
+// Graphics Rendering
+
+
+// Game Mechanics
+1. add jump pad mechanics
+
+
+// Game AI
+1. PathFinding
+2. level of intelligence
+
+// Game Economics
+
+
+ECS
+GJK
+SAT (Seperating Axis Theorem)
+QuadTrees and Octrees for Spatial Partitioning Techniques
+Spatial Partitioning Techniques

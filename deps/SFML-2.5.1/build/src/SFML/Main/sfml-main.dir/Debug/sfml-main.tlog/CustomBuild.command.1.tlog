@@ -1,0 +1,10 @@
+^F:\ALL_PROJECTS_SOURCE\CPP_TUTS\RANDOMPROJECTS\SERAENGINE\DEPS\SFML-2.5.1\SRC\SFML\MAIN\CMAKELISTS.TXT
+setlocal
+F:\CMake\bin\cmake.exe -SF:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1 -BF:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build --check-stamp-file F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/src/SFML/Main/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

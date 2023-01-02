@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/CMakeLists.txt
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build/CMakeFiles/3.24.0/CMakeCXXCompiler.cmake
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build/CMakeFiles/3.24.0/CMakeRCCompiler.cmake
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/build/CMakeFiles/3.24.0/CMakeSystem.cmake
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/SFMLConfig.cmake
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/SFMLConfigDependencies.cmake
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/SFMLConfigVersion.cmake
+F:/All_Projects_Source/Cpp_Tuts/randomProjects/seraEngine/deps/SFML-2.5.1/build/SFMLSharedTargets.cmake
+F:/CMake/share/cmake-3.24/Modules/CMakeCXXInformation.cmake
+F:/CMake/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake
+F:/CMake/share/cmake-3.24/Modules/CMakeGenericSystem.cmake
+F:/CMake/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake
+F:/CMake/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake
+F:/CMake/share/cmake-3.24/Modules/CMakeRCInformation.cmake
+F:/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake
+F:/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake
+F:/CMake/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+F:/CMake/share/cmake-3.24/Modules/Compiler/MSVC-CXX.cmake
+F:/CMake/share/cmake-3.24/Modules/Compiler/MSVC.cmake
+F:/CMake/share/cmake-3.24/Modules/FindBoost.cmake
+F:/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake
+F:/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake
+F:/CMake/share/cmake-3.24/Modules/Platform/Windows-MSVC-CXX.cmake
+F:/CMake/share/cmake-3.24/Modules/Platform/Windows-MSVC.cmake
+F:/CMake/share/cmake-3.24/Modules/Platform/Windows.cmake
+F:/CMake/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake
